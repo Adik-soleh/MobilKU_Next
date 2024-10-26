@@ -17,16 +17,16 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
-        </h1>
+
+        Temukan, pesan, sewa mobil—cepat dan sangat mudah!        </h1>
 
         <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
+          Sederhanakan pengalaman sewa mobil Anda dengan proses pemesanan kami
+          yang mudah.
         </p>
 
         <CustomButton
-          title="Explore Cars"
+          title="Jelajahi Mobil"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
